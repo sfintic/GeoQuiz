@@ -1,4 +1,4 @@
-//Solo Fintic 1158134
+//Solo Fintic - 1158134
 package com.example.geoquiz
 
 import android.content.Intent
