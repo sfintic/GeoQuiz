@@ -1,3 +1,4 @@
+//Solo Fintic 1158134
 package com.example.geoquiz
 
 import android.content.Intent
@@ -120,7 +121,7 @@ fun QuizScreen(
         // Navigation buttons with icons
         Row {
             Button(onClick = {
-                resultText = "" // Reset the result text when navigating to the previous question
+                resultText = ""
                 onPreviousClicked()
             }) {
                 Icon(
@@ -132,7 +133,7 @@ fun QuizScreen(
             }
             Spacer(modifier = Modifier.width(16.dp))
             Button(onClick = {
-                resultText = "" // Reset the result text when navigating to the next question
+                resultText = ""
                 onNextClicked()
             }) {
                 Text(text = "Next")
